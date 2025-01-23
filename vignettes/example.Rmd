@@ -1,0 +1,30 @@
+---
+title: "example"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{example}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+### Getting started with the example package
+
+```{r setup}
+library(example)
+```
+* here is a bulleted list
+* next element
+
+You can use `square` to multiply a number by itself.
+
+```{r}
+square(10)
+```
+
